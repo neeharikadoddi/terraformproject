@@ -5,7 +5,6 @@ pipeline{
     }
     environment {
         TF_HOME = tool('Terraform')
-        TF_IN_AUTOMATION = "true"
         PATH = "$TF_HOME:$PATH"
     }
     stages {

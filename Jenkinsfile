@@ -21,7 +21,11 @@ pipeline{
                     clientSecretVariable: 'ARM_CLIENT_SECRET',
                     tenantIdVariable: 'ARM_TENANT_ID'
                 )
-                }
+                } sh """
+                                
+                        echo "Initialising Terraform"
+                        terraform init -backend-config="access_key=$ARM_ACCESS_KEY"
+                        """
         }
         }
 

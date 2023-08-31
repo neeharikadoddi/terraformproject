@@ -32,7 +32,7 @@ pipeline{
                         sh """
                                 
                         echo "Initialising Terraform"
-                        terraform init -backend-config="access_key=$ARM_ACCESS_KE"
+                        terraform init -backend-config="access_key=$ARM_ACCESS_KEY"
                         """
                            }
                     }
@@ -53,7 +53,7 @@ pipeline{
                         
                         sh """
                                 
-                        terraform validate
+                        terraform validat
                         """
                            }
                     }

@@ -1,12 +1,12 @@
 # Service Principal Variables
 
 variable "client_id" {
-    description =   "cb9cc279-633f-46cb-a04a-d217f8a25d5f"
+    description =   "89d2feb5-8358-4c67-8693-f3e5c97f4cd0"
     type        =   string
 }
 
 variable "client_secret" {
-    description =   "5_x8Q~eh2FtL2ufhk~v2.TEaQimeFb_k3k-A9c02"
+    description =   ".BF8Q~etJ~dbuHD2JJemkqFbor.T5CQNCHnh1ail"
     type        =   string
 }
 
